@@ -127,6 +127,8 @@
  * {
      box-sizing: border-box;
 
+
+
 }
  .header{
      width: auto;
@@ -138,12 +140,14 @@
 
 }
  .container1 {
-     border: 1px white;
+     width: auto;
      display: block;
      text-align: center;
      border-style: dashed;
-     margin: 25px;
+     margin: auto;
+     padding: 15px;
      color: black;
+     background: #708090;
 }
  .box{
      width: 100%;
@@ -164,11 +168,12 @@
      padding: 5px;
 }
  input {
-     background: gray;
+     
      color: black;
+
 }
- input::placeholder {
-     color: white;
+ ::placeholder {
+     text-align: center;
 }
  @media only screen and (max-width: 480px){
      * {
