@@ -163,6 +163,7 @@ p {
 }
 label {
     color: black;
+    text-decoration: underline;
 }
 input {
     text-align: center;
@@ -175,6 +176,7 @@ input {
 input::placeholder {
     text-align: center;
 }
+
 @media only screen and (max-width: 480px) {
     * {
         box-sizing: border-box;
