@@ -9,7 +9,7 @@ function checkform()
 	if (fname == "")
 	{
 		
-		$("#fname").effect("shake");
+		alert('Please enter your First Name');
 		return false;
 	}
 	else if (lname == "")
