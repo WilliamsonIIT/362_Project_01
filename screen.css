@@ -125,81 +125,80 @@
 }
 /* -- END FORM NORMALIZATION -- */
  * {
-     box-sizing: border-box;
-
-
-
+    box-sizing: border-box;
 }
- .header{
-     width: auto;
-     margin: 0 auto;
-     text-align: center;
-     padding: 10px;
-     background-color: #696969;
-     color: white;
-
+.header {
+    width: auto;
+    margin: 0 auto;
+    text-align: center;
+    padding: 10px;
+    background-color: #696969;
+    color: white;
 }
- .container1 {
-     width: auto;
-     display: block;
-     text-align: center;
-     border-style: dashed;
-     margin: auto;
-     padding: 15px;
-     color: black;
-     background: #708090;
+.container1 {
+    width: auto;
+    display: block;
+    text-align: center;
+    border-style: dashed;
+    margin: auto;
+    padding: 15px;
+    color: black;
+    background: #708090;
 }
- .box{
-     width: 100%;
-     margin: 0 auto;
-     margin: 0;
-     border: 1px white;
+.box {
+    width: 100%;
+    margin: 0 auto;
+    margin: 0;
+    border: 1px white;
 }
- body {
-     font-family: 'Raleway', Helvetica, sans-serif;
-     
+body {
+    font-family: 'Raleway', Helvetica, sans-serif;
 }
- h1 {
-     font-family: 'Oswald', Helvetica, sans-serif;
-     font-size: 2.618em;
-  
+h1 {
+    font-family: 'Oswald', Helvetica, sans-serif;
+    font-size: 2.618em;
 }
- p {
-     padding: 5px;
+p {
+    padding: 5px;
 }
- input {
-     
-     color: black;
-
+label {
+    color: black;
 }
- ::placeholder {
-     text-align: center;
+input {
+    text-align: center;
+    color: black;
+    border-radius: 6px;
+    border: 1px solid #ccc;
+    padding: 12px 20px;
+    margin: 8px 0;
 }
- @media only screen and (max-width: 480px){
-     * {
-         box-sizing: border-box;
-         background: #228b22;
+input::placeholder {
+    text-align: center;
+}
+@media only screen and (max-width: 480px) {
+    * {
+        box-sizing: border-box;
+        background: #228b22;
     }
-     .header{
-         text-align: center;
-         padding: 0px;
-         color: blue;
-         font-size: 1em;
-         padding: 10px;
-         width: 100%;
+    .header {
+        text-align: center;
+        padding: 0px;
+        color: blue;
+        font-size: 1em;
+        padding: 10px;
+        width: 100%;
     }
-     .container1 {
-         border: 1px black;
-         border-style: solid;
-         margin: 25px;
+    .container1 {
+        border: 1px black;
+        border-style: solid;
+        margin: 25px;
     }
-     .box {
-         width: 100%;
-         text-align: center;
-         border: 1px black;
+    .box {
+        width: 100%;
+        text-align: center;
+        border: 1px black;
     }
-     p {
-         padding: 10px;
+    p {
+        padding: 10px;
     }
 }
- 
