@@ -132,7 +132,6 @@
     margin: 0 auto;
     text-align: center;
     padding: 10px;
-    background-color: #696969;
     color: white;
 }
 .container1 {
@@ -143,7 +142,7 @@
     margin: auto;
     padding: 15px;
     color: black;
-    background: #708090;
+    background-color: #696969;
 }
 .box {
     width: 100%;
@@ -153,6 +152,7 @@
 }
 body {
     font-family: 'Raleway', Helvetica, sans-serif;
+    background: black;
 }
 h1 {
     font-family: 'Righteous', cursive;
