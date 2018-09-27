@@ -128,7 +128,7 @@
     box-sizing: border-box;
 }
 .header {
-    width: auto;
+    width: 500px;
     margin: 0 auto;
     text-align: center;
     padding: 10px;
@@ -149,6 +149,12 @@
     margin: 0;
     border: 1px white;
 }
+.footer {
+    width: auto;
+    color: white;
+
+    text-align: center;
+}
 body {
     font-family: 'Bangers', cursive;
     background: black;
@@ -161,6 +167,7 @@ h1 {
 p {
     padding: 5px;
 }
+
 label {
     color: black;
     text-decoration: underline;
@@ -176,3 +183,18 @@ input {
 input::placeholder {
     text-align: center;
 }
+
+@media only screen and (max-width: 480px){
+    .header {
+        width: 100%;
+        text-align: center;
+        margin: 0;
+    }
+    body {
+    font-size: 1.5em;
+}
+h1 {
+    font-size: 2.5em;
+}
+
+
