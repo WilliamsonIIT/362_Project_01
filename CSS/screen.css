@@ -211,7 +211,7 @@ input::placeholder {
     .background {
     min-height: 720px;
 }
-.footer {
+    .footer {
     width: auto;
     color: white;
     position: relative;
@@ -222,15 +222,15 @@ input::placeholder {
     body {
     font-size: 1.5em;
 }
-h1 {
+    h1 {
     font-size: 2.5em;
 }}
 
 @media only screen and (min-width: 700px){
     .box{
-width: 400px;
-         position: absolute;
-    top: 125px;
+        width: 400px;
+        position: absolute;
+        top: 125px;
     }
 
 }
