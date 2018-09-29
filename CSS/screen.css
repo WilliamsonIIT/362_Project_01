@@ -125,115 +125,111 @@
 }
 /* -- END FORM NORMALIZATION -- */
  * {
-    box-sizing: border-box;
+     box-sizing: border-box;
 }
-.background {
-    min-height: 1080px;
-    background-position: center;
-    background-repeat: no-repeat;
-    position: relative;
-    background-image: url("../images/background.jpg");
-    background-size: cover;
+ .background {
+     min-height: 1080px;
+     background-position: center;
+     background-repeat: no-repeat;
+     position: relative;
+     background-image: url("../images/background.jpg");
+     background-size: cover;
 }
-.header {
-    width: 500px;
-    margin: 0 auto;
-    text-align: center;
-    padding: 10px;
-    color: white;
-    background-color: black;
+ .header {
+     width: 500px;
+     margin: 0 auto;
+     text-align: center;
+     padding: 10px;
+     color: white;
+     background-color: black;
 }
-.container1 {
-    width: auto;
-    display: block;
-    text-align: center;
-    margin: auto;
-    padding: 15px;
-    color: black;
-   
+ .container1 {
+     width: auto;
+     display: block;
+     text-align: center;
+     margin: auto;
+     padding: 15px;
+     color: black;
 }
-.box {
-    margin: 0 auto;
-    padding: 10px;
-    border: 1px white;
-    float: left;
-    background-color: #696969;
+ .box {
+     margin: 0 auto;
+     padding: 10px;
+     border: 1px white;
+     float: left;
+     background-color: #696969;
 }
-.footer {
-    width: auto;
-    color: white;
-    position: fixed;
-    bottom: 0;
-    left: 0;
-    text-align: center;
+ .footer {
+     width: auto;
+     color: white;
+     position: fixed;
+     bottom: 0;
+     left: 0;
+     text-align: center;
 }
-body {
-    height: 100%;
-    font-family: 'Bangers', cursive;
-    font-size: 1.5em;
+ body {
+     height: 100%;
+     font-family: 'Bangers', cursive;
+     font-size: 1.5em;
 }
-h1 {
-    font-family: 'Bangers', cursive;
-    font-size: 2.618em;
+ h1 {
+     font-family: 'Bangers', cursive;
+     font-size: 2.618em;
 }
-p {
-    padding: 5px;
+ p {
+     padding: 5px;
 }
-
-label {
-    color: black;
-    text-decoration: underline;
+ label {
+     color: black;
+     text-decoration: underline;
 }
-input {
-    display: table-cell;
-    width: 100%;
-    text-align: center;
-    color: black;
-    border-radius: 6px;
-    border: 1px solid #ccc;
-    padding: 12px 20px;
-    margin: 8px 0;
+ input {
+     display: table-cell;
+     width: 100%;
+     text-align: center;
+     color: black;
+     border-radius: 6px;
+     border: 1px solid #ccc;
+     padding: 12px 20px;
+     margin: 8px 0;
 }
-input::placeholder {
-    text-align: center;
+ input::placeholder {
+     text-align: center;
 }
-
-@media only screen and (max-width: 480px){
-    .header {
-        width: 100%;
-        text-align: center;
-        margin: 0;
+ @media only screen and (max-width: 480px){
+     .header {
+         width: 100%;
+         text-align: center;
+         margin: 0;
     }
-    .box {
-        width: 100%;
-    margin: 0 auto;
+     .box {
+         width: 100%;
+         margin: 0 auto;
     }
-    .background {
-    min-height: 720px;
-}
-    .footer {
-    width: auto;
-    color: white;
-    position: relative;
-    padding: 10px;
-    text-align: center;
-}
-
-    body {
-    font-size: 1.5em;
-}
-    h1 {
-    font-size: 2.5em;
-}}
-
-@media only screen and (min-width: 700px){
-    .box{
-        width: 400px;
-        position: absolute;
-        top: 125px;
+     .background {
+         min-height: 720px;
     }
-
+     .footer {
+         width: auto;
+         color: white;
+         position: relative;
+         padding: 10px;
+         text-align: center;
+    }
+     body {
+         font-size: 1.5em;
+    }
+     h1 {
+         font-size: 2.5em;
+    }
 }
+ @media only screen and (min-width: 700px){
+     .box{
+         width: 400px;
+         position: absolute;
+         top: 125px;
+    }
+}
+ 
 
 
 
