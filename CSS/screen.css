@@ -141,23 +141,27 @@
     margin: auto;
     padding: 15px;
     color: black;
-    background-color: #696969;
+   
 }
 .box {
-    width: 100%;
+    width: 25%;
     margin: 0 auto;
-    margin: 0;
+    padding: 10px;
     border: 1px white;
+    float: left;
+    background-color: #696969;
 }
 .footer {
     width: auto;
     color: white;
-
+    position: fixed;
+    bottom: 0;
+    left: 0;
     text-align: center;
 }
 body {
+    background-image: url("../images/background.jpg");
     font-family: 'Bangers', cursive;
-    background: black;
     font-size: 1.5em;
 }
 h1 {
