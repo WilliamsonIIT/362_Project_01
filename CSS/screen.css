@@ -166,13 +166,15 @@
      left: 0;
      text-align: center;
 }
+ html {
+    font-family: 'Bangers', 'Verdana', 'Helvetica', serif;
+ }
+
  body {
      height: 100%;
-     font-family: 'Bangers', cursive;
      font-size: 1.5em;
 }
  h1 {
-     font-family: 'Bangers', cursive;
      font-size: 2.618em;
 }
  p {
