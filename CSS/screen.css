@@ -124,6 +124,12 @@
     /* 2 */
 }
 /* -- END FORM NORMALIZATION -- */
+
+/*
+  Perfect Fifth Modular Scale:
+  https://www.modularscale.com/?16&px&1.5
+*/
+
  * {
      box-sizing: border-box;
 }
@@ -136,7 +142,7 @@
      background-size: cover;
 }
  .header {
-     width: 500px;
+     width: 100%
      margin: 0 auto;
      text-align: center;
      padding: 10px;
@@ -152,7 +158,6 @@
      color: black;
 }
  .box {
-     margin: 0 auto;
      padding: 10px;
      border: 1px white;
      float: left;
@@ -168,14 +173,16 @@
 }
  html {
     font-family: 'Bangers', 'Verdana', 'Helvetica', serif;
+    font-size: 1.5em; /* 24px */
+    line-height: 2.25em; /* 28px / ~ 150% */
  }
 
  body {
      height: 100%;
-     font-size: 1.5em;
 }
  h1 {
-     font-size: 2.618em;
+     font-size: 2.25em;  /* 36px */
+     line-height: 1.125em; /* 18px / ~50% */
 }
  p {
      padding: 5px;
